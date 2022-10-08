@@ -1,0 +1,138 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #050404;
+  color: #ffffff;
+}
+
+figcaption {
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: 900;
+  color: #ffb822;
+  text-align: center;
+}
+
+h2 {
+  font-size: 47px;
+  line-height: 50px;
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 80px;
+}
+
+.haeder__logo,
+.header__navigation,
+.header__form,
+.navigation__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header__navigation {
+  font-weight: 400;
+}
+
+.haeder__logo {
+  margin-right: 100px;
+}
+
+.header__navigation {
+  margin-right: 100px;
+}
+
+.navigation__item {
+  margin-right: 33px;
+}
+
+.navigation__link {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.header-form {
+  border: 3px solid #9965e3;
+  border-radius: 8px;
+}
+
+.header-form__button {
+  background-color: transparent;
+  border: 0;
+  color: #9965e3;
+}
+
+.header-form__input {
+  background-color: transparent;
+  border: 0;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.header-form__input::placeholder {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.present {
+  position: relative;
+  min-height: 783px;
+  background-image: url('./image/kate_leo.png');
+  background-repeat: no-repeat;
+}
+
+.present::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #000000;
+  opacity: .4;
+}
+
+.present__title {
+  position: relative;
+  z-index: 1;
+  padding-top: 280px;
+  text-transform: uppercase;
+  font-size: 100px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.present__description {
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+}
+
+
